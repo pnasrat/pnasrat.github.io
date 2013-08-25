@@ -116,3 +116,24 @@ Reading the sources we can run a port so lets edit `/etc/init/docker.conf` and c
 ```
     /usr/bin/docker -d -H 127.0.0.1:4243
 ```
+
+Reload/restart docker via `initctl` and now we can use curl as we would normally
+
+```
+curl -s http://localhost:4243/v1.4/containers/json | python -m json.tool
+```
+
+```javascript
+[
+    {
+        "Command": "/usr/bin/python3 -m http.server",
+        "Created": 1377427941,
+        "Id": "a86b320f3c71a7473d06f2184a955d7f76ef3dfb113b0f22b4a8cd8a544f0793",
+        "Image": "ubuntu:12.10",
+        "Ports": "8000->8000",
+        "SizeRootFs": 0,
+        "SizeRw": 0,
+        "Status": "Ghost"
+    }
+]
+```
