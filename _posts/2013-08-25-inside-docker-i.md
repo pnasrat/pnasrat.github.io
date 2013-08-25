@@ -14,7 +14,7 @@ Docker has had a lot of attention, and I wanted to get a deeper understanding of
 
 ## Requirements
 
-Pre-requisites - install virtualbox and vagrant as per the docker installatino
+Pre-requisites - install virtualbox and vagrant as per the docker installation.
 
 * http://docs.docker.io/en/latest/installation/vagrant/
 
