@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Paul Nasrat
-tagline: ...
+title: Pris Nasrat
+tagline: Systems witchcraft
 ---
 {% include JB/setup %}
 
