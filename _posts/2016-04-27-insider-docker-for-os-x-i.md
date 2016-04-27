@@ -2,8 +2,9 @@
 layout: post
 title: "Insider Docker for OS X i"
 description: "Initial exploration"
+date: 2016-04-27 13:35:00
 category: 
-tags: "docker"
+tags: ["docker"]
 ---
 {% include JB/setup %}
 ## Overview

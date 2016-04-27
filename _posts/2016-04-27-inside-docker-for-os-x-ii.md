@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Inside Docker for OS X ii"
+date: 2016-04-27 14:40:45
 description: "Getting a shell"
 category: 
 tags: ["docker"]
